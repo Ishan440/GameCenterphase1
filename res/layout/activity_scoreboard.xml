@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fall2018.csc2017.GameCenter.Scoreboard">
+
+    <TableLayout
+        android:id="@+id/scoreboardsTable"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:padding="20dip"
+        android:stretchColumns="*"
+        tools:context="fall2018.csc2017.GameCenter.Scoreboard">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_column="0"
+                android:text="@string/scoreboards"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="2dip"
+            android:background="#FF909090" />
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_column="0"
+                android:text="@string/complexity"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_column="1"
+                android:text="@string/per_user"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_column="2"
+                android:text="@string/per_game"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090" />
+
+    </TableLayout>
+</android.support.constraint.ConstraintLayout>

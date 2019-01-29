@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Game Center</string>
+    <string name="button_login">Login</string>
+    <string name="button_signup">Signup</string>
+    <string name="welcome">Welcome to the Game Center</string>
+    <string name="username">Username</string>
+    <string name="Password">Password</string>
+    <string name="Back">Back</string>
+    <string name="Guest">Play as Guest</string>
+    <string name="Undobutton">Undo</string>
+    <string name="Undoers"># of moves to undo</string>
+    <string name="password">Password</string>
+    <string name="create_account">Create Account</string>
+    <string name="load_autosave">load auto save</string>
+    <string name="scoreboards">Scoreboards</string>
+    <string name="per_user">Per-User</string>
+    <string name="per_game">Per-Game</string>
+    <string name="three_by_three">3x3</string>
+    <string name="four_by_four">4x4</string>
+    <string name="five_by_five">5x5</string>
+    <string name="complexity">Complexity</string>
+    <string name="select_game">Select which game to play:</string>
+    <string name="sliding_tiles">Sliding Tiles</string>
+</resources>
